@@ -2,6 +2,9 @@ import Vue from 'vue'
 import app from './app.vue'
 import VueRouter from 'vue-router'
 
+var marked = require('marked');
+Vue.filter('marked', marked)
+
 import './styles.css'
 
 Vue.config.debug = process.env.NODE_ENV !== 'production'
