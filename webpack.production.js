@@ -1,4 +1,6 @@
 var webpack = require('webpack')
+var css = require("!raw!sass!./file.scss")
+var css = require("!css!sass!./file.scss")
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {

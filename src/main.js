@@ -6,6 +6,7 @@ var marked = require('marked');
 Vue.filter('marked', marked)
 
 import './styles.css'
+require("!style!css!sass!./file.scss")
 
 Vue.config.debug = process.env.NODE_ENV !== 'production'
 
